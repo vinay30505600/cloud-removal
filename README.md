@@ -1,4 +1,4 @@
-# SAR-Guided Cloud Removal for LISS-IV Optical Imagery
+# SAR-Guided Cloud Removal for Sentinel-2 Optical Imagery
 
 A lightweight deep learning model that removes clouds from optical satellite imagery by fusing the cloudy optical image with a co-registered Sentinel-1 SAR image. SAR sees through clouds, so it provides the ground structure that the optical image has lost.
 
@@ -67,7 +67,7 @@ Head: Conv 1×1 (64→3) → Sigmoid                             [3,256,256]
 
 Upsampling is bilinear (`align_corners=False`). Skip connections are concatenated, not added.
 
-Source: [`cloud_removal_architecture.py`](cloud_removal_architecture.py)
+Source: ['architecture.py`](architecture.py)
 
 ---
 
