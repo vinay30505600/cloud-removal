@@ -260,4 +260,4 @@ validation Loss after 22 epoch-0.2953
 validation Loss after 23-epoch-0.2835
 validation Loss after 24-epoch-0.2704
 validation Loss after 25-epoch-0.2557
-0.09799771366408092
+
